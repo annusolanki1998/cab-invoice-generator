@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50701deb-f93e-4540-a58f-53029fca5c94" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/InvoiceService.java" afterDir="false" />
-    </list>
+    <list default="true" id="50701deb-f93e-4540-a58f-53029fca5c94" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,13 +29,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.InvoiceServiceTest.givenDistanceAndTime_ShouldReturnTotalFare">
+}</component>
+  <component name="RunManager" selected="JUnit.InvoiceServiceTest.givenMultipleRides_ShouldReturnTotalFare">
     <configuration name="InvoiceServiceTest.givenDistanceAndTime_ShouldReturnTotalFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cab-invoice-generator-program" />
       <extension name="coverage">
@@ -71,8 +68,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvoiceServiceTest.givenMultipleRides_ShouldReturnTotalFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cab-invoice-generator-program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.InvoiceServiceTest" />
+      <option name="METHOD_NAME" value="givenMultipleRides_ShouldReturnTotalFare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InvoiceServiceTest.givenMultipleRides_ShouldReturnTotalFare" />
         <item itemvalue="JUnit.InvoiceServiceTest.givenDistanceAndTime_ShouldReturnTotalFare" />
         <item itemvalue="JUnit.InvoiceServiceTest.givenLessDistanceOrTime_ShouldReturnMinimumFare" />
       </list>
