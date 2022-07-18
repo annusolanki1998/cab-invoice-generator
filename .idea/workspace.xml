@@ -7,7 +7,7 @@
     <list default="true" id="50701deb-f93e-4540-a58f-53029fca5c94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/InvoiceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/InvoiceServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/InvoiceServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/InvoiceSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/InvoiceSummary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InvoiceServiceTest.givenMultipleRides_ShouldReturnInvoiceSummary">
+  <component name="RunManager" selected="JUnit.InvoiceServiceTest.givenUserId_ShouldReturnInvoiceSummary">
     <configuration name="InvoiceServiceTest.givenDistanceAndTime_ShouldReturnTotalFare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cab-invoice-generator-program" />
       <extension name="coverage">
@@ -109,8 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InvoiceServiceTest.givenUserId_ShouldReturnInvoiceSummary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cab-invoice-generator-program" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.InvoiceServiceTest" />
+      <option name="METHOD_NAME" value="givenUserId_ShouldReturnInvoiceSummary" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InvoiceServiceTest.givenUserId_ShouldReturnInvoiceSummary" />
         <item itemvalue="JUnit.InvoiceServiceTest.givenMultipleRides_ShouldReturnInvoiceSummary" />
         <item itemvalue="JUnit.InvoiceServiceTest.givenMultipleRides_ShouldReturnTotalFare" />
         <item itemvalue="JUnit.InvoiceServiceTest.givenDistanceAndTime_ShouldReturnTotalFare" />

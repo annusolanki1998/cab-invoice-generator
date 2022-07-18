@@ -16,8 +16,13 @@ public class InvoiceSummary {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         InvoiceSummary that = (InvoiceSummary) o;
-        return Double.compare(that.averageFare, averageFare) == 0 && numberOfRides == that.numberOfRides && Double.compare(that.totalFare, totalFare) == 0;
+        //return numberOfRides == that.numberOfRides && Double.compare(that.averageFare, averageFare) == 0 && numberOfRides == that.numberOfRides && Double.compare(that.totalFare, totalFare) == 0;
+
+        return numberOfRides == that.numberOfRides && Double.compare(that.totalFare, totalFare) == 0 && Double.compare(that.averageFare, averageFare) == 0;
     }
 
-
+    public InvoiceSummary getInvoiceSummary() {
+        this.averageFare = this.totalFare / this.numberOfRides;
+        return this;
+    }
 }
